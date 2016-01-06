@@ -34,4 +34,18 @@ public class Utils {
         }
         return ret;
     }
+
+    //"2016-01-06T13:20:30.937"
+    public static String prettyTime(String in) {
+        String out = "";
+        try {
+            DateFormat inFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS", Locale.ENGLISH);
+            Date date = inFormat.parse(in);
+            SimpleDateFormat outFormat = new SimpleDateFormat("hh:mm a  MM/dd/yyyy");
+            out = outFormat.format(date);
+        } catch (ParseException e) {
+
+        }
+        return out;
+    }
 }

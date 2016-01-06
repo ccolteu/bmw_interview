@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.bmw.interview.R;
 import com.bmw.interview.model.BMWLocation;
+import com.bmw.interview.utils.Utils;
 
 import java.util.List;
 
@@ -53,7 +54,7 @@ public class LocationsAdapter extends ArrayAdapter<BMWLocation> {
         BMWLocation bmwLocation = getItem(position);
         viewHolder.name.setText(bmwLocation.getName());
         viewHolder.address.setText(bmwLocation.getAddress());
-        viewHolder.time.setText(bmwLocation.getArrivalTime());
+        viewHolder.time.setText(Utils.prettyTime(bmwLocation.getArrivalTime()));
         viewHolder.distance.setVisibility(View.GONE);
         if (bmwLocation.getDistance() != -1) {
             viewHolder.distance.setText(String.format("%.2f Miles", bmwLocation.getDistance()));
