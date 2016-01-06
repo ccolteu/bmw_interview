@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BMW Interview</string>
+
+    <string name="loading_data">Loading data...</string>
+    <string name="error_loading_data">Error loading data, please try again later.</string>
+    <string name="no_connection">Sorry, you need internet connection to load data. Make sure your Airplane Mode is not turned on and try again later.</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bmw.interview" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <!-- needed for Google Maps v2 -->
+    <permission
+        android:name="${packageName}.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="${packageName}.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!-- version 2 of the Google Maps Android API requires OpenGL ES version 2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        $ keytool -list -alias androiddebugkey -keystore ~/.android/debug.keystore -storepass android -keypass android -v
+        SHA1: 30:A4:42:71:61:EF:4D:87:AB:D4:8D:D1:F5:8C:3C:F4:C3:78:E5:74
+
+        https://code.google.com/apis/console (use Chrome, Safari does not work...)
+	 	project "BMW Interview", enable Google Maps Api and create an Android key
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAeJKVnPAXFhdTq-OsjFbg_n75CWlG5X64" />
+
+        <activity android:name=".ui.MapActivity" />
+
+    </application>
+
+</manifest>

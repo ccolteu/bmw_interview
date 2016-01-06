@@ -1,0 +1,90 @@
+[
+  {
+    "ID": 2041,
+    "Name": "Doughnut Vault Canal",
+    "Latitude": 41.883976,
+    "Longitude": -87.639346,
+    "Address": "11 N Canal St L30 Chicago, IL 60606",
+    "ArrivalTime": "2016-01-06T11:08:19.61"
+  },
+  {
+    "ID": 2042,
+    "Name": "Monk’s Pub",
+    "Latitude": 41.885791,
+    "Longitude": -87.634306,
+    "Address": "205 W Lake St, Chicago, IL 60606",
+    "ArrivalTime": "2016-01-06T12:59:19.61"
+  },
+  {
+    "ID": 2043,
+    "Name": "Cubby Bear",
+    "Latitude": 41.947071,
+    "Longitude": -87.656705,
+    "Address": "1059 W Addison St, Chicago, IL 60613",
+    "ArrivalTime": "2016-01-06T10:30:19.61"
+  },
+  {
+    "ID": 2044,
+    "Name": "Murphy’s Bleachers",
+    "Latitude": 41.949014,
+    "Longitude": -87.654087,
+    "Address": "3655 N Sheffield Ave, Chicago, IL 60613",
+    "ArrivalTime": "2016-01-06T09:57:19.61"
+  },
+  {
+    "ID": 2045,
+    "Name": "Wrigley Field",
+    "Latitude": 41.948922,
+    "Longitude": -87.655278,
+    "Address": "1060 W Addison St, Chicago, IL 60613",
+    "ArrivalTime": "2016-01-06T10:47:19.61"
+  },
+  {
+    "ID": 2046,
+    "Name": "Al’s Beef",
+    "Latitude": 41.893197,
+    "Longitude": -87.633901,
+    "Address": "169 W Ontario St, Chicago, IL 60654",
+    "ArrivalTime": "2016-01-06T18:20:19.61"
+  },
+  {
+    "ID": 2047,
+    "Name": "Bull & Bear",
+    "Latitude": 41.890351,
+    "Longitude": -87.633665,
+    "Address": "431 N Wells St, Chicago, IL 60654",
+    "ArrivalTime": "2016-01-06T09:31:19.61"
+  },
+  {
+    "ID": 2048,
+    "Name": "Frontera Grill",
+    "Latitude": 41.891398,
+    "Longitude": -87.630736,
+    "Address": "445 N Clark St, Chicago, IL 60654",
+    "ArrivalTime": "2016-01-06T13:42:19.61"
+  },
+  {
+    "ID": 2049,
+    "Name": "Lou Malnati's Pizzeria",
+    "Latitude": 41.902197,
+    "Longitude": -87.632935,
+    "Address": "439 N Wells St, Chicago, IL 60654",
+    "ArrivalTime": "2016-01-06T14:16:19.61"
+  },
+  {
+    "ID": 2050,
+    "Name": "Naf Naf Grill",
+    "Latitude": 41.883045,
+    "Longitude": -87.635689,
+    "Address": "309 W Washington St, Chicago, IL 60606",
+    "ArrivalTime": "2016-01-06T17:42:19.61"
+  },
+  {
+    "ID": 2051,
+    "Name": "Tribune Tower",
+    "Latitude": 41.89031,
+    "Longitude": -87.623295,
+    "Address": "435 N Michigan Ave, Chicago, IL 60611",
+    "ArrivalTime": "2016-01-06T11:26:19.61"
+  }
+]
